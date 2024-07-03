@@ -12,7 +12,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: ;
+   justify-content: center;
 }
 
 .slack-creds{
@@ -210,6 +210,12 @@ body{
     }
     .left{
         width: 95%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .left h1{
+        text-align: center;
     }
     .right{
         width: 95%;
@@ -218,6 +224,9 @@ body{
     }
     .right .desc-box{
         width: 90%;
+    }
+    .right .desc-box h1{
+        font-size: 25px;
     }
     .goals{
         flex-direction: column-reverse;
